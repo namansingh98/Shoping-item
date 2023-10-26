@@ -1,0 +1,82 @@
+.card-container {
+  display: grid;
+  grid-template: max-content;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 20rem;
+  margin-top: 2rem;
+  z-index: -2;
+}
+
+.card {
+  margin: 20px;
+  border: 2px solid #ededed;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.card-img {
+  width: 13rem;
+  margin-bottom: 1rem;
+}
+
+.card-title {
+  margin-bottom: 1rem;
+}
+
+.card-reviews {
+  margin-bottom: 1rem;
+  display: flex;
+}
+
+.rating-star {
+  color: #d5ab55;
+}
+
+.total-reviews {
+  font-size: 0.9rem;
+  margin-left: 10px;
+}
+
+.card-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bag-icon {
+  color: #535353;
+}
+
+@media screen and (max-width: 760px) {
+  .card-container {
+    margin-left: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-start: auto;
+  }
+}
+@media screen and (max-width: 426px) {
+  .card-container {
+    margin-left: 2.8rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+
+@media screen and (max-width:315px){
+  .card-container {
+    margin-left: 0rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-start: auto;
+  }
+}
+@media screen and (max-width: 426px) {
+  .card-container {
+    margin-left: 1rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+}
