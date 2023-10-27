@@ -4,7 +4,7 @@ import Products from "./Product/Products";
 import products from "./db/data";
 import Recommended from "./Recommended/Recommended";
 import Sidebar from "./Sidebar/Sidebar";
-import Card from "./components/Card";
+import Card from "./Components/Card"
 import "./App.css";
 
 function App() {

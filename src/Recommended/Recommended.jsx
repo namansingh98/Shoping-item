@@ -1,4 +1,4 @@
-import Button from "../components/Buttons";
+import Button from "../Components/Buttons";
 import "./Recommended.css";
 
 const Recommended = ({ handleClick }) => {
